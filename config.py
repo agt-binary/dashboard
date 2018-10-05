@@ -27,3 +27,4 @@ COL_NAMES = ['id',
 CREDENTIALS = 'db_creds.pkl'
 QUERY = 'query_nowhere.sql'
 MIN_RECORDS = 50
+COUNT_FILE = '/home/workgroup/alok/dashboard_data/counts'
