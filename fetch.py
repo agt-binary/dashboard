@@ -78,7 +78,7 @@ while True:
           dataframes[broker] = pd.DataFrame()
       df.to_csv('../all_today_'+str(counter["all"]).zfill(4)+'.csv', index=False)
       logging.info('total rows for ALL brokers are: '+str(len(df)))
-      with open('current_count', 'w') as file:
+      with open(COUNT_FILE, 'w') as file:
         file.write(str(counter)+'\n')
       logging.info('done writing all!')
 
